@@ -1,0 +1,24 @@
+{
+    "name": "micaherne/ewell",
+    "description": "Scaffold PHP server API from RAML",
+    "authors": [
+        {
+            "name": "Michael Aherne",
+            "email": "micaherne@blueyonder.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "~1.2",
+        "symfony/yaml": "3.0.*@dev",
+        "justinrainbow/json-schema": "~1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raml\\": "src\\Raml"
+        }
+    }
+}
